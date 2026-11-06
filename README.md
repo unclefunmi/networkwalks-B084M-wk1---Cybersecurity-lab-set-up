@@ -88,6 +88,8 @@ The configuration was applied through Kali's NetworkManager connection settings.
 
 A VirtualBox shared folder named Downloads was configured with the Windows host's Downloads directory as its source
 
+<img src="./Screenshot%202026-11-05%20120908.png" alt="Cybersecurity Lab Screenshot" width="800">
+
 ---
 
 **Enable clipboard and drag-and-drop**
