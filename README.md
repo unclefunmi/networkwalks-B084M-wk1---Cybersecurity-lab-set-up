@@ -56,7 +56,7 @@ The VM was originally imported as a Kali 2026.1 VirtualBox appliance and then up
 
 ---
 ## Build and configuration summary
-1. I created the NAT Network
+**Create the NAT Network**
 In VirtualBox Manager, open Tools / Network (the exact menu wording can vary by VirtualBox release), select NAT Networks, and create or edit:
 - Name: NatNetwork
 - IPv4 Prefix: 10.0.0.0/24
@@ -70,6 +70,15 @@ The Kali VM's Adapter 1 is attached to NAT Network and the network name is NatNe
 **VirtualBox Network Adapter Configuration**
 
 ![VirtualBox Adapter Settings](./Screenshot%202026-11-06%20050621.png)
+
+---
+**Configure Kali networking**
+The verified guest settings are:
+- Interface: eth0
+- Address: 10.0.0.2/24
+- Gateway: 10.0.0.1
+- DNS: 8.8.8.8
+The configuration was applied through Kali's NetworkManager connection settings. Exact connection profile names can differ between installations.
 
 
 
