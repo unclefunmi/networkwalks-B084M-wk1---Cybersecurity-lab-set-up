@@ -82,11 +82,24 @@ The configuration was applied through Kali's NetworkManager connection settings.
 
 ![Cybersecurity Lab Screenshot](./Screenshot%202026-10-30%20154024.png)
 
+---
 
+**Configure the shared folder**
 
-
-
-
-
+A VirtualBox shared folder named Downloads was configured with the Windows host's Downloads directory as its source
 
 ---
+
+**Enable clipboard and drag-and-drop**
+
+In the powered-off VM settings, set:
+- General → Advanced → Shared Clipboard: Bidirectional
+- General → Advanced → Drag and Drop: Bidirectional
+Both directions were manually tested after the Guest Additions update and after the Kali operating-system upgrade:
+- Windows → Kali
+- Kali → Windows
+Both clipboard and drag-and-drop worked in both directions.
+
+---
+
+
