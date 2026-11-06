@@ -106,4 +106,41 @@ Both clipboard and drag-and-drop worked in both directions.
 
 ---
 
+Internet Connectivity Configuration
+
+The Kali Linux virtual machine was configured with full internet connectivity using Oracle VirtualBox NAT Network.
+
+The NAT Network allows the virtual machine to access external internet services through the Windows host's internet connection while maintaining its own private IP address.
+
+Network Configuration:
+
+Network Mode: NAT Network
+
+Network Name: NatNetwork
+
+IPv4 Subnet: 10.0.0.0/24
+
+Kali Linux IP Address: 10.0.0.2/24
+
+Default Gateway: 10.0.0.1
+
+DNS Server: 8.8.8.8
+
+Connectivity Verification:
+
+The following commands were used to verify network connectivity:
+
+ping -c 4 10.0.0.1
+
+ping -c 4 8.8.8.8
+
+ping -c 4 google.com
+
+All connectivity tests completed successfully, confirming gateway communication, external internet access and DNS resolution.
+
+This configuration enables Kali Linux to access online repositories, download cybersecurity tools, install updates and access external research resources.
+
+
+---
+
 
