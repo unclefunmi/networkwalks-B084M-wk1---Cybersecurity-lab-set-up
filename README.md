@@ -55,7 +55,7 @@ A documented personal cybersecurity lab built on a Windows 11 host using Oracle 
 The VM was originally imported as a Kali 2026.1 VirtualBox appliance and then updated in place. The final guest reports `VERSION_ID="2026.3"` in `/etc/os-release`.
 
 ---
-**Build and configuration summary**
+## Build and configuration summary
 1. I created the NAT Network
 In VirtualBox Manager, open Tools / Network (the exact menu wording can vary by VirtualBox release), select NAT Networks, and create or edit:
 - Name: NatNetwork
@@ -63,11 +63,11 @@ In VirtualBox Manager, open Tools / Network (the exact menu wording can vary by 
 - DHCP: Enabled
 The Kali VM's Adapter 1 is attached to NAT Network and the network name is NatNetwork. The virtual cable is connected.
 
-## NAT Network Configuration
+**NAT Network Configuration**
 
 ![NAT Network Settings](./Screenshot%202026-11-06%20050155.png)
 
-## VirtualBox Network Adapter Configuration
+**VirtualBox Network Adapter Configuration**
 
 ![VirtualBox Adapter Settings](./Screenshot%202026-11-06%20050621.png)
 
