@@ -62,4 +62,20 @@ In VirtualBox Manager, open Tools / Network (the exact menu wording can vary by 
 - IPv4 Prefix: 10.0.0.0/24
 - DHCP: Enabled
 The Kali VM's Adapter 1 is attached to NAT Network and the network name is NatNetwork. The virtual cable is connected.
+
+<img width="1916" height="1141" alt="Screenshot 2026-11-06 050155" src="https://github.com/user-attachments/assets/789ca890-a498-4a14-a6e6-2fd241f191fe" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
