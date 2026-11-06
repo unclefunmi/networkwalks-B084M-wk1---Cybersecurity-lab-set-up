@@ -102,6 +102,8 @@ Both directions were manually tested after the Guest Additions update and after 
 - Kali → Windows
 Both clipboard and drag-and-drop worked in both directions.
 
+<img src="./Screenshot%202026-11-06%20050929.png" alt="VirtualBox Configuration" width="800">
+
 ---
 
 
