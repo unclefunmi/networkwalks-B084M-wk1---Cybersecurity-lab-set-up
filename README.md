@@ -140,7 +140,13 @@ All connectivity tests completed successfully, confirming gateway communication,
 
 This configuration enables Kali Linux to access online repositories, download cybersecurity tools, install updates and access external research resources.
 
-
+<img src="./Screenshot%202026-11-06%20051921.png"
+     alt="Kali Linux Network Configuration"
+     width="800">
+     <img src="./Screenshot%202026-11-06%20051949.png"
+     alt="Kali Linux Network Connectivity Test"
+     width="800">
+     
 ---
 
 
