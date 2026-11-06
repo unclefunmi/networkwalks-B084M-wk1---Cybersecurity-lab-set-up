@@ -80,8 +80,7 @@ The verified guest settings are:
 - DNS: 8.8.8.8
 The configuration was applied through Kali's NetworkManager connection settings. Exact connection profile names can differ between installations.
 
-
-
+![Cybersecurity Lab Screenshot](./Screenshot%202026-10-30%20154024.png)
 
 
 
